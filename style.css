@@ -1,0 +1,103 @@
+.container-fluid {
+    height: 100vh;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.outer {
+    border: 5px solid black;
+    height: 600px;
+    position: relative;
+    top: 20px;
+}
+
+.title {
+    background-color: #1d3e4e;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    top: 12px;
+}
+
+.fa-brands {
+    float: left;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.content {
+    height: 540px;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.left-box {
+    background-color: black;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.search {    
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-search {
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+}
+
+.boxs {
+    
+    display: flex;
+    top: 120px;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.mini-box {
+    height: 150px;
+    border: 2px solid black;
+    position: relative;
+    top: 75px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.foot {
+    background-color: black;
+    height: 80px;
+    border-radius: 10px;
+}
